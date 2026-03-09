@@ -34,12 +34,10 @@ When a user enters a location and clicks **Get Weather**, ServiceNow retrieves w
 WeatherAPI
 
 Endpoint:
-http://api.weatherapi.com/v1/current.json
+http://api.weatherapi.com/v1/current.json?key=${key}&q=${place}
 
-Query Parameters:
-
-* key → API key
-* q → location
+* key → d2d2ef02d91343a6885123601260903
+* q → location(Dynamic)
 
 ## UI Action Script
 
@@ -89,4 +87,3 @@ User enters location → clicks **Get Weather** → ServiceNow calls weather API
 
 * Learning ServiceNow integrations
 * REST API practice
-* Interview demonstration project
