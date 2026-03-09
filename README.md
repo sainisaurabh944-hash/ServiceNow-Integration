@@ -81,7 +81,9 @@ gs.addInfoMessage("Weather fetched successfully");
 
 ## Result
 
-User enters location → clicks **Get Weather** → ServiceNow calls weather API → fields auto-populate.
+User enters location → clicks **Find Weather** → ServiceNow calls weather API → fields auto-populate.
+<img width="1359" height="275" alt="image" src="https://github.com/user-attachments/assets/d276031f-eb6b-4b2e-a796-16b5ec9aab6d" />
+
 
 ## Use Cases
 
